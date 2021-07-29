@@ -12,4 +12,9 @@ This is a fork of default keymap of Sofle. Layout is highly close to **HHKB** la
 - Right Screen
   - Mario game animation with WPM information (originally forked and rescaled for 128x32 OLED display from https://github.com/b0rv3g4r4/Kyria-Mario-Keymap/)
 
+## Left Screen on Action
+
+![IMG_5818](https://user-images.githubusercontent.com/196477/127566150-43367c5d-bcd5-4e49-9346-d2035087faed.gif)
+
+
 ## Layout Features
