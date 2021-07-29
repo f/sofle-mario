@@ -14,6 +14,12 @@ This is a fork of default keymap of Sofle. Layout is highly close to **HHKB** la
 
 ## Left Screen on Action
 
+### Left OLED Layers
+- Star or Mushroom Animation on CAPS LOCK
+- Layer Info: Base, Lower or Raise
+- CAPS LOCK or empty space
+- Pressed Key Name
+
 ![IMG_5818](https://user-images.githubusercontent.com/196477/127566150-43367c5d-bcd5-4e49-9346-d2035087faed.gif)
 
 
