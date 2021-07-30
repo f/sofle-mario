@@ -15,7 +15,6 @@ void set_keylog(uint16_t keycode, keyrecord_t *record) {
         name = ' ';
     }
     switch (keycode) {
-        case RSFT_ENT:
         case LSFT_CAPS:
         case KC_LSFT:
         case KC_RSFT:
