@@ -31,6 +31,8 @@ This is a fork of default keymap of Sofle. Layout is highly close to **BM PC/AT*
 - WPM information
 - Mario Animation
 
+![IMG_5836](https://user-images.githubusercontent.com/196477/127719384-867004ad-91c9-4116-8516-7534da9af985.gif)
+
 ## Encoders
 
 ### ENCODER_RESOLUTION Setting
@@ -43,6 +45,10 @@ On file `qmk_firmware/keyboards/sofle/rev1/config.h`, you may need to change fol
 ```
 
 ## Layouts
+
+Layout is very close to **IBM PC/AT** configuration similar to **HHKB**.
+
+- CTRL is at left
 
 ### Base Layout
 
