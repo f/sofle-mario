@@ -25,4 +25,24 @@ This is a fork of default keymap of Sofle. Layout is highly close to **BM PC/AT*
 ![IMG_5818](https://user-images.githubusercontent.com/196477/127566150-43367c5d-bcd5-4e49-9346-d2035087faed.gif)
 
 
-## Layout Features
+## Right Screen on Action
+
+### Right OLED Layers
+- WPM information
+- Mario Animation
+
+## Encoders
+
+### ENCODER_RESOLUTION Setting
+Some encoders' resolution may need to be set to `4`, otherwise the encoders will double action per tick.
+
+On file `qmk_firmware/keyboards/sofle/rev1/config.h`, you may need to change following setting to `4`.
+
+```C
+#define ENCODER_RESOLUTION 4
+```
+
+## Layouts
+
+### Base Layout
+
