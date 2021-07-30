@@ -1,8 +1,8 @@
-# WIP: Sofle Mario Theme Keyboard Settings with HHKB-like Layout
+# WIP: Sofle Mario Theme Keyboard Settings with IBM PC/AT Layout
 
 > Configured only for macOS.
 
-This is a fork of default keymap of Sofle. Layout is highly close to **HHKB** layout since my primary keyboard is HHKB.
+This is a fork of default keymap of Sofle. Layout is highly close to **BM PC/AT** layout since my primary keyboard is HHKB.
 
 ![IMG_5815](https://user-images.githubusercontent.com/196477/127565134-b600c1fa-9dc1-452d-a192-5a569ed2f756.jpg)
 
