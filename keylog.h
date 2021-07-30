@@ -15,6 +15,21 @@ void set_keylog(uint16_t keycode, keyrecord_t *record) {
         name = ' ';
     }
     switch (keycode) {
+        case KC_BSPC:
+            snprintf(keylog_str, sizeof(keylog_str), "<<<<<");
+            break;
+        case RAISE_UP:
+            snprintf(keylog_str, sizeof(keylog_str), "^ RAI");
+            break;
+        case ALT_RIGHT:
+            snprintf(keylog_str, sizeof(keylog_str), "> ALT");
+            break;
+        case SLS_SFT:
+            snprintf(keylog_str, sizeof(keylog_str), "/ SFT");
+            break;
+        case ESC_ADJ:
+            snprintf(keylog_str, sizeof(keylog_str), "E ADJ");
+            break;
         case LSFT_CAPS:
         case KC_LSFT:
         case KC_RSFT:
