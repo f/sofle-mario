@@ -1,4 +1,4 @@
-# Sofle Mario Theme Keyboard Settings with HHKB-like Layout
+# WIP: Sofle Mario Theme Keyboard Settings with HHKB-like Layout
 
 > Configured only for macOS.
 
