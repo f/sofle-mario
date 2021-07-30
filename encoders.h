@@ -1,16 +1,36 @@
 void main_encoder(bool clockwise) {
-    if (clockwise) {
-        tap_code(KC_BRMU);
-    } else {
-        tap_code(KC_BRMD);
+    switch (get_highest_layer(layer_state)) {
+        case _RAISE:
+            if (clockwise) {
+                tap_code16(KC_MREDO);
+            } else {
+                tap_code16(KC_MUNDO);
+            }
+            break;
+        default:
+            if (clockwise) {
+                tap_code(KC_BRMU);
+            } else {
+                tap_code(KC_BRMD);
+            }
     }
 }
 
 void second_encoder(bool clockwise) {
-    if (clockwise) {
-        tap_code(KC_VOLU);
-    } else {
-        tap_code(KC_VOLD);
+    switch (get_highest_layer(layer_state)) {
+        case _LOWER:
+            if (clockwise) {
+                tap_code(KC_MNXT);
+            } else {
+                tap_code(KC_MPRV);
+            }
+            break;
+        default:
+            if (clockwise) {
+                tap_code(KC_VOLU);
+            } else {
+                tap_code(KC_VOLD);
+            }
     }
 }
 
