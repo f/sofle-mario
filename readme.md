@@ -44,6 +44,13 @@ On file `qmk_firmware/keyboards/sofle/rev1/config.h`, you may need to change fol
 #define ENCODER_RESOLUTION 4
 ```
 
+### ENCODER_DIRECTION_FLIP Setting
+The encoder may work reversed on some encoders. To fix this, you can change the `ENCODER_DIRECTION_FLIP` setting
+
+```C
+#define ENCODER_DIRECTION_FLIP
+```
+
 ## Layouts
 
 Layout is very close to **IBM PC/AT** configuration similar to **HHKB**.

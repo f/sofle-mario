@@ -10,7 +10,9 @@ for more options.
   #define OLED_TIMEOUT 60000
 #endif
 
-#define ENCODER_DIRECTION_FLIP
+/* If the encoder direction works anti-clockwise, then you can enable this setting:
+*/
+// #define ENCODER_DIRECTION_FLIP
 
 #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
